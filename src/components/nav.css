@@ -1,0 +1,18 @@
+.desktop_nav {
+  display: none;
+}
+.menu_items{
+    display: none;
+}
+@media screen and (min-width:768px) {
+    .desktop_nav{
+        display: flex;
+    }
+    
+}
+
+@media screen and (min-width:1280px) {
+    .menu_items{
+        display: flex;
+    }
+}
